@@ -14,14 +14,14 @@
     <header class="header">
         <nav class="header__menu">
           <ul class="header__links-list">
-            <li class="header__links-list-item header__links-list-item_no-bullit">
-              главная 
+            <li class="header__links-list-item links-list-item_no-bullit">
+              <a class="links-list-item_no-bullit" href="#0"> главная</a>
             </li>
             <li class="header__links-list-item">
-              <a class="link__border-bottom" href="#0">посмотреть лоты</a>
+              <a class="link" href="#0">посмотреть лоты</a>
             </li>
             <li class="header__links-list-item">
-              <a class="link__border-bottom" href="#0">об аукционе</a>
+              <a class="link" href="#0">об аукционе</a>
             </li>
           </ul>
         </nav>
@@ -31,22 +31,15 @@
           src="./images/logo-black.svg" 
           alt="Логотип черного цвета">
         </a>
-        <ul class="header__address"> 
-          <li>
-            <a class="link__border-bottom" href="tel:+99995555555">+9 999 555 5555</a>
-          </li>
-          <li>
-            <a class="link__border-bottom" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li>
-            <address class="address__container">
-              <p>
-                наб. Принсенграхт 263- <br> 265,  
-              Амстердам
-              </p>
-            </address>
-          </li>
-        </ul> 
+          <address class="address">
+            <a class="link" href="tel:+99995555555">+9 999 555 5555</a>
+            <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            <p>
+              наб. Принсенграхт 263- 
+              <br>
+              265, Амстердам
+            </p>
+          </address>
     </header>
     <main>
       <section class="cover"> 
@@ -54,13 +47,13 @@
         <h1 class="cover__title">
           <span class="aligned-text letter-spacing_unextended">О<span class="letter-spacing_extended">но</span></span> 
           <span class="aligned-text_center letter-spacing_unextended">те<span class="letter-spacing_extended">бе</span></span> 
-          <span class="aligned-text_right letter-spacing_unextended"><span class="letter-spacing_extended">н</span>адо</span>
+        <span class="aligned-text_right"><span class="letter-spacing_extended">н</span><span class="letter-spacing_unextended">ад</span>о</span>
         </h1>
         <div class="cover__description">  
           <p class="cover__description-text">
           Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">
+          <button class="bet-button" type="button">
             Сделать ставку
           </button>
         </div>
@@ -107,9 +100,7 @@
               </a>
               </li>
               </ul>
-              <div class="lots__look-more-link"> 
-                <a href="#0" >посмотреть больше</a>
-              </div>
+                <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about__logo"> 
@@ -123,13 +114,13 @@
             <h2 class="about__title">
               Об аукционе
             </h2>
-            <p class="about__text about__letter-spacing-first">
+            <p class="about__text about__letter-spacing">
               Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
               Наши лоты вообще не должны были попасть ни на один аукцион. 
               Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? 
               Кому нужны все эти странные вещи, созданные любителями?
             </p>
-            <p class="about__text about__letter-spacing-second">
+            <p class="about__text">
               Слишком сложные или, наоборот, слишком простые. Опережающие своё время. 
               В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря 
               на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. 
@@ -139,9 +130,9 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="footer__address">
-        <a class="link__border-bottom" href="tel:+99995555555">+9 999 555 5555</a><br>
-        <a class="link__border-bottom" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <address class="address">
+        <a class="link" href="tel:+99995555555">+9 999 555 5555</a><br>
+        <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>
           наб. Принсенграхт 263- 
           <br>
@@ -151,13 +142,13 @@
         <nav class="footer__menu">
           <ul class="footer__menu-list">
             <li>
-              главная
+              <a class="links-list-item_no-bullit" href="#0">главная</a>
             </li>
             <li>
-              <a class="link__border-bottom" href="#0">посмотреть лоты</a>
-            </li>
+              <a class="link" href="#0">посмотреть лоты</a>
+            </li> 
             <li>
-              <a class="link__border-bottom" href="#0">об аукционе</a> 
+              <a class="link" href="#0">об аукционе</a> 
             </li>
           </ul>
         </nav>
