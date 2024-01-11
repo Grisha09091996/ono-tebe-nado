@@ -1,47 +1,67 @@
 .header {
+    background-color: blue;
     display: grid;
-    grid-template-columns: 392px 290px 242px;
-    justify-content: space-between;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 26px;
+    margin: 92px 24px 90px;
+    font-size: 18px; 
+    font-weight: 400;
+    line-height: normal;
+    /* display: grid;
+    grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     font-size: 18px; 
     font-weight: 400;
     line-height: normal;
     width: 1052px;
-    margin: 92px 24px 90px;
-    padding-left: 27px;
-    padding-right: 21px;
+    margin: 92px 24px 90px; */
 }
 
 .header__links-list {
+    position: relative;
+    left: 5px;
+    background-color: aquamarine;
     display: flex;
     width: 391px;
     gap: 32px;
     list-style: circle;
+    
 }
 
-.links-list-item_no-bullit {
-    list-style-type: none;
-    text-decoration: none;
-}
-
-
-.header__logo-image {
-    width: 148px;
-    height: 105px;
-}
-
-.address {
-    font-size: 18px; 
-    line-height: 24.3px;
-    list-style-type: none;
-    width: 241px;
-    font-style: normal;
+.links-list-item_no-bullit { 
+    list-style-type: none; 
 }
 
 .link {
     text-decoration: none;
     border-bottom: 1px solid black;
 }
+
+ .links-list-item_active {
+    border-bottom: none;
+}
+
+
+.header__logo-image {
+    background-color: deeppink;
+    width: 148px;
+    height: 105px;
+}
+
+.address {
+    position: relative;
+    left: 185px;
+    background-color: chocolate;
+    font-size: 18px; 
+    line-height: 24.3px;
+    width: 241px;
+    font-style: normal;
+    
+}
+
+
 
 .cover {
     background-image: url(../images/cover.jpg);
@@ -86,14 +106,12 @@
     display: block;
     text-align: center;
     line-height: 100%;
-    margin-top: 20px;
 }
 
 .aligned-text_right {
     display: block;
     text-align: right;
     line-height: 100%;
-    margin-top: 20px;
 }
 
 .letter-spacing_unextended {
@@ -268,7 +286,7 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 241px 149px 240px;
+    grid-template-columns: 1fr 1fr min-content;
     gap: 185px;
     width: 1000px;
     margin: 180px 50px 88px;
