@@ -9,7 +9,6 @@
     margin: 92px 24px 90px; 
     padding-left: 27px; 
     padding-right: 21px; 
-
 } 
 
 .header__links-list {
@@ -17,7 +16,6 @@
     width: 391px;
     gap: 32px;
     list-style: circle;
-    
 }
 
 .links-list-item_no-bullit { 
@@ -40,14 +38,15 @@
 }
 
 .address {
-    justify-self: end;
     font-size: 18px; 
     line-height: 24.3px;
     width: 241px;
     font-style: normal;
-    
 }
 
+.header__address {
+    justify-self: end;
+}
 
 
 .cover {
@@ -217,10 +216,10 @@
 
 .lots__look-more-link {
     display: block;
+    text-decoration: none;
     padding-top: 30px;
     padding-left: 63px;
     font-size: 20px;
-    
 }
 
 .about {
@@ -231,12 +230,11 @@
 }
 
 .about__logo {
-    margin: 35px 765px 320px 47px;
+    margin: 35px 72px 0px 47px;
     width: 240px;
     height: 240px;
     background-color: black;
     border-radius: 50%;
-    
 }
 
 .about__logo-image {
@@ -247,8 +245,7 @@
 
 .about__column {
     width: 693px; 
-    margin-top: 133px;
-    
+    margin-top: 137px;
 }
 
 .about__title {
@@ -288,7 +285,6 @@
 
 .footer__menu-list {
     list-style-type: none;
-
 }
 
 .footer__social-list {
